@@ -65,11 +65,11 @@ In case of an error:
 ## Setup
 
 1. Set up environment variables for each database you want to monitor:
-   - PGM_HOST_$NAME: PostgreSQL host for the database
-   - PGM_PORT_$NAME: PostgreSQL port for the database
-   - PGM_DATABASE_$NAME: Database name
-   - PGM_USER_$NAME: PostgreSQL user for monitoring
-   - PGM_PASSWORD_$NAME: PostgreSQL password for the monitoring user
+   - PGM_DB_HOST_$NAME: PostgreSQL host for the database
+   - PGM_DB_PORT_$NAME: PostgreSQL port for the database
+   - PGM_DB_DATABASE_$NAME: Database name
+   - PGM_DB_USER_$NAME: PostgreSQL user for monitoring
+   - PGM_DB_PASSWORD_$NAME: PostgreSQL password for the monitoring user
    Where $NAME is a unique identifier for each database (e.g., PRODUCTION, STAGING).
 
 2. Set the PGM_SECRET environment variable for Basic Authentication.
