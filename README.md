@@ -31,8 +31,10 @@ The endpoint is secured using Basic Authentication. Use the following credential
 Example:
 
 ```
-GET /health?monitor=check_connections&db=myapp_production
+GET /health?monitor=check_connections&db=PRODUCTION
 ```
+
+Note: The `db` parameter value must match one of the names declared in the environment variables (e.g., PRODUCTION, STAGING).
 
 ### Authentication
 
